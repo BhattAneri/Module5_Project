@@ -1,0 +1,60 @@
+<!--html document-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--    title of the page.-->
+    <title>Vacation Rental Property</title>
+    <!--    attaching the css and javascript file to the html page.-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- adding Google Maps Api key to add the thirdparty api to our project -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy9Ahrl3azkornYkv-r03-MwCq1rbLZlQ&callback=initMap"
+    async defer></script>
+    <script src="main.js" async></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HAPPY STAYS!</h1>
+        <a href="#jump" class="button"> Click Here To Start Site Tour</a>
+    </div>
+    <div class="inner" id="jump">
+        <div class="container-inner">
+            <h2>About Us:</h2>
+        <p>A Home which make you feel like you own it!</p>
+        <p>A Selection Of Places verified for Quality, Design and Luxury Stays!</p>
+        </div>
+        <h3>Let's Take A Look At Some Exotic Destinations!</h3>
+        <section class="innerinfo" id="jumpinner">
+        </section>
+        <!-- creating a section and paragraph tag with the id.-->
+        <section class="innerdescp" id="innerdescp">
+        <h3>Want to know more about these Exotic Places?</h3>
+            <p id="cuba">
+                Cubex Cottage - Cuba
+            </p>
+            <p id="montreal">
+               Monty Stays - Montreal
+            </p>
+            <p id="sydney">
+               Syden Suits - Sydney
+            </p>
+            <p id="rome">
+                Roma villas - Rome
+            </p>
+        </section>
+    </div>
+    <article>
+      <h4>Location of Head Branch</h4>
+    <!--The div element for the map -->
+    <div id="map"> </div>
+    <div class="container-footer">
+        <footer>
+            <!-- name and student number goes in footer.-->
+            <p> Rental Properties with apis and google map - Aneri Bhatt (200430090) 
+            </p>
+        </footer>
+    </div>
+    </article>
+</body>
+</html>
