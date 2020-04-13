@@ -1,0 +1,36 @@
+{
+    "VacationProperties":[
+     {
+      "name": "Cubex",
+      "price" : 575.50,
+      "ratings" :"4.5",
+      "place": "Havana,Cuba",
+      "Details": "Swimming Pool with Jacuzzi",
+         "image" : "1-127-400x314cuba.jpg"
+    },
+    {
+      "name": "Monty",
+      "price" : 600.00,
+      "ratings" :"3.5",
+      "place": "Montreal,Quebec",
+      "Details": "Fire Place with Garden",
+        "image" : "2519220180523154207470montreal.jpg"
+    },
+    {
+      "name": "Syden",
+      "price" : 800,
+      "ratings" :"4.8",
+      "place": "Sydney,Australia",
+      "Details": "Beach Side View",
+        "image" : "596accbb-d659-4d67-82c1-9a5b30c976d5.c9sydney.jpg"
+    },
+    {
+      "name": "Roma",
+      "price" : 750,
+      "ratings" :"3.6",
+      "place": "Rome,Itlay",
+      "Details": "Swimming Pool with Jacuzzi",
+        "image" : "Romeimages.jpg"
+    }
+    ]
+}
